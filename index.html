@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type=”text/javascript” src=”http://code.jquery.com/jquery-2.0.3.min.js”></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cssCart.css">
+    <link rel="stylesheet" href="css/product-style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div id="header">
+        <p>Be all you can be</p>
+        <p>and</p>
+        <p>Have it your way</p>
+        <span id="span1">
+            <video id="vdeo1" width="700px" controls>
+                <source src="images/AMG G63 2022.mp4">
+            </video>
+        </span>
+    </div>
+    <div id="clo">Bấm đây nè</div>
+    <input id="showBox" type="button" value="Show box" />
+    <div class="box">
+        <div id="ale1">I want pass this exam!</div>
+        <div class="close">&#x24E7;</div>
+        <div id="ale2">Pass the JavaScript's exam!</div>
+    </div>
+    <script src="js/head.js"></script>
+
+
+
+
+    <div class="wrapimg">
+        <!--app-->
+        <div class="app">
+            <h2 class="w3-center"><i>MERCEDER WORLD</i></h2>
+
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="slides" src="images/mer1.jpg" />
+                <img class="slides" src="images/mer2.jpg" />
+                <img class="slides" src="images/mer3.jpg" />
+                <img class="slides" src="images/mer4.jpg" />
+            </div>
+        </div>
+
+        <!--productions-->
+        <div class="pro">
+            <h2 class="w3-center"><i>SEA WORLD</i></h2>
+
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="images/bien0.jpg" style="width:100%; height: 550px;">
+                <img class="mySlides" src="images/bien1.jpg" style="width:100%; height: 550px;">
+                <img class="mySlides" src="images/bien2.jpg" style="width:100%; height: 550px;">
+                <img class="mySlides" src="images/bien3.jpg" style="width:100%; height: 550px;">
+                <img class="mySlides" src="images/bien4.jpg" style="width:100%; height: 550px;">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div>
+        <h2>DANH MỤC HÀNG HÓA</h2>
+        <table border="1">
+            <tr>
+                <th>Loại</th>
+                <th>Giá</th>
+                <th>Mua</th>
+            </tr>
+            <tr>
+                <td>iPhone9</td>
+                <td>$2700</td>
+                <td><button onclick="them(this)">Thêm</button></td>
+            </tr>
+            <tr>
+                <td>Samsung Star</td>
+                <td>$1500</td>
+                <td><button onclick="them(this)">Thêm</button></td>
+            </tr>
+            <tr>
+                <td>Nokia 2020</td>
+                <td>$1200</td>
+                <td><button onclick="them(this)">Thêm</button></td>
+            </tr>
+            <tr>
+                <td>Sony Xperia</td>
+                <td>$1700</td>
+                <td><button onclick="them(this)">Thêm</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>GIỎ HÀNG CỦA BẠN</h2>
+        <table border="1" id="gioHang"></table>
+    </div>
+
+    <div>
+        <h2>TỔNG SỐ TIỀN: $ <span id="tong">0</span></h2>
+    </div>
+
+
+
+
+    <script src="js/app.js"></script>
+    <script src="js/newapp.js"></script>
+    <script src="js/productions.js"></script>
+    <footer>
+        <span>
+            <ul>
+                <li><b>ABOUT:</b>
+                    Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers with the
+                    code.
+                    Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple.
+                    We will help programmers build up concepts in different programming languages that include C, C++,
+                    Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.
+                </li>
+                <li><b>CATEGORIES:</b>
+                    C
+                    UI Design
+                    PHP
+                    Java
+                    Android
+                    Templates
+                </li>
+                <li><b>QUICK:</b>
+                    <ul>
+                        <li><a href="">LINKS</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Contribute</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </span>
+    </footer>
+</body>
+
+</html>

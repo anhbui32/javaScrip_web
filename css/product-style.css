@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+	background: #284701;
+}
+
+.card {
+	width: 250px;
+	border-radius: 10px;
+}
